@@ -14,7 +14,10 @@ body{
 }
 
 .navbar{
-    width: 21.79%;
+    position: fixed;
+    float: left;
+    width: 410px;
+    /*width: 21.79%;*/
     background-color: black;
     border-radius: 50px;
 }
@@ -25,6 +28,7 @@ body{
     text-align: center;
     padding: 24px;
     text-decoration: none;
+    border-right: 1px solid;
 }
 
 .itemMenu:hover{
@@ -38,10 +42,15 @@ body{
     width: 138px;
     color: white;
     background-color: black;
+    border: 1px solid;
     border-radius: 50px;
 }
 
 .logo{
     border-radius: 50%;
     width: 64px;
+}
+
+#test{
+    height: 2400px;
 }
