@@ -6,20 +6,21 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-color: rgb(41, 65, 65);
+    background-color: #181a1b;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
 }
 
 .navbar{
     position: fixed;
     float: left;
     width: 410px;
-    /*width: 21.79%;*/
     background-color: black;
     border-radius: 50px;
+    border:1px solid;
 }
 
 .itemMenu{
@@ -29,6 +30,10 @@ body{
     padding: 24px;
     text-decoration: none;
     border-right: 1px solid;
+}
+
+.itemMenu:nth-child(4){
+    border-right: 0px none;
 }
 
 .itemMenu:hover{
@@ -51,6 +56,16 @@ body{
     width: 64px;
 }
 
+.title{
+    font-size: 64px;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: small;
+    text-align: center;
+}
+
 #test{
-    height: 2400px;
+    height: 25em;
 }
