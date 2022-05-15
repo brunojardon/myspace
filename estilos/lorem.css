@@ -1,0 +1,13 @@
+/*! estilos css lorem !*/
+
+
+
+
+.background-lorem{
+    background: url("./../img/c.jpg") no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    text-align: center;
+}
+
