@@ -12,33 +12,6 @@
     text-align: center;
 }
 
-.navbar {
-    background-color: #000000;
-    border-radius: 50px;
-    border: 1px solid;
-    position: fixed;
-    display: flex;
-    height: 64px;
-    margin: 8px;
-}
-
-.itemMenu {
-    border-right: 1px solid;
-    text-decoration: none;
-    text-align: center;
-    font-size: 16px;
-    padding: 23px;
-}
-
-.itemMenu:nth-child(4) {
-    border-right: 0px none;
-}
-
-.itemMenu:hover {
-    background-color: #dddddd;
-    color: #000000;
-}
-
 .iconbar {
     background-color: #000000;
     border-radius: 50px;

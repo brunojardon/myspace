@@ -1,23 +1,22 @@
-/*! estilos css lorem !*/
+/*! estilos css servicio !*/
 
 
 
 
-.background-lorem{
-    background: url("./../img/c.jpg") no-repeat;
+.backgroundServicio{
+    background: url("./../img/servicioBackground.jpg") no-repeat;
     height: 100vh;
     width: 100vw;
     background-size: 100%;
     text-align: center;
 }
 
-.backgrounda{
+.backgroundSerText{
     background-color: rgba(0, 0, 0, 0.75);
-    border: 2px inset #fff;
+    border: 2px inset #ffffff;
     border-radius: 20px;
-    width: 25vw;
-    height: 25vh;
     position: absolute;
     margin-top: 15%;
     margin-left: 65%;
+    margin-right: 5%;
 }
